@@ -1,0 +1,87 @@
+@use 'color';
+
+.headers {
+  font-size: 20px;
+  background-color: #212529;
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &>nav {
+
+    width: 100%;
+    max-width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+
+  .menu_button {
+    padding: 5px;
+
+    div {
+      border-radius: 10px;
+      width: 12px;
+      height: 3px;
+      background-color: white;
+      margin: 3px;
+    }
+  }
+
+  .logo {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+  }
+
+  .menu {
+    display: flex;
+
+    a ,button{
+      color: #FFFFFF8C;
+    }
+button{
+  border: none;
+  background-color: #212529;
+}
+    gap: 30px;
+  }
+
+  .count__div {
+    display: flex;
+    padding: 0 10px;
+        gap: 5px;
+
+  }
+
+  .count {
+    min-width: 20px;
+    text-align: center;
+    aspect-ratio: 9/9;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    background-color: color.$btn-back-color;
+    color: white;
+    padding: 1px;
+    font-size: 16px;
+  }
+
+  input {
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  .search{
+    background-color: color.$btn-back-color;
+  }
+}

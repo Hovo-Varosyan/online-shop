@@ -1,0 +1,33 @@
+@use 'color';
+
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  section{
+    width:50%;
+
+  }
+  .section__div{
+    div{margin: 10px 0;}
+  }
+    a {
+      text-decoration:underline;
+      color: color.$url-color;
+    }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    input{
+      padding: 10px 5px;
+      border-radius: 10px;
+    }
+    input[type=submit]{
+      width: 10%;
+      background-color: color.$btn-back-color;
+    }
+    
+  }
+}
